@@ -1,0 +1,312 @@
+
+
+  /* Media Queries */
+  /* Desktop */
+  @media screen and (min-width: 800px) 
+  {
+    body 
+    {
+      background-color: lightblue;
+    }
+    img {
+      max-width: 100%;
+      color: #333;
+    }
+  }
+  
+  /* Tablet */
+  @media screen and (max-width: 800px) and (min-width: 540px)
+   {
+    body 
+    {
+      background-color: lightgreen;
+    }
+    img {
+      max-width: 100%;
+    }
+  }
+  
+  /* Phone */
+  @media screen and (max-width: 540px) 
+  {
+    body 
+    {
+      background-color: lightyellow;
+    }
+    img {
+      max-width: 100%;
+    }
+}
+
+/*Header*/
+
+header
+{
+  text-align: left;
+}
+
+
+/*NavigationBar*/
+
+#Navigation {
+  background-color: darkcyan;
+  padding: 10px;
+}
+
+#Navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+}
+
+#Navigation li {
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+#Navigation a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  opacity: 1;
+  
+}
+
+#Navigation a:hover {
+  background-color: #FFFFFF44;
+}
+
+
+/*Social Media */
+.social a img 
+{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+  }
+  
+  
+  .social
+   {
+    float: right;
+    text-align: center;
+  }
+
+
+/*ContentSection*/
+  section 
+  {
+    background-color: pink;
+    text-align: center;
+    padding:20px;
+  }
+
+
+
+/*Home Page*/
+
+  #HomePage
+  {
+    font-size: x-large;
+  }
+
+  /*About Page*/
+
+  #AboutPage
+  {
+    font-size:x-large;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+ 
+
+
+
+  .AboutPic img
+  {
+    width: 450px;
+    height: 350px;
+    margin: 0 10px;
+  }
+
+  
+
+  
+
+  /*Japanese Manga Scroll*/
+
+  .JapaneseManga-Scroll
+  {
+    width: 100%; 
+    height: 100%;
+white-space: nowrap;
+    overflow-y: scroll;
+  }
+
+  .JapaneseManga-Scroll img
+  {
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .JapaneseManga-Scroll img:hover
+  {
+    transform: scale(1.2);
+    opacity: 0.8;
+    overflow-y:hidden;
+  }
+
+  .JapaneseManga-Scroll p.popup {
+    max-width: 300px;
+    margin-left: 0;
+  }
+  
+  .JapaneseManga-Scroll img:hover + p.popup {
+    transform: translate(-100px, 0);
+    z-index: 10;
+  }
+
+
+    /*Chinese ManHwa Scroll*/
+
+    .ChineseManHwa-Scroll
+    {
+      width: 100%; 
+      height: 100%;
+  white-space: nowrap;
+      overflow: auto;
+    }
+  
+    .ChineseManHwa-Scroll img
+    {
+      width: 250px;
+      height: 350px;
+      margin-right: 20px;
+      transition: transform 0.3s, opacity 0.3s;
+    }
+  
+    .ChineseManHwa-Scroll img:hover
+    {
+      transform: scale(1.2);
+      opacity: 0.8;
+      overflow-y: hidden;
+    }
+
+  /*English Comic Scroll*/
+
+  .EnglishComic-Scroll
+  {
+    width: 100%; 
+    height: 100%;
+white-space: nowrap;
+    overflow: auto;
+  }
+
+  .EnglishComic-Scroll img
+  {
+    width: 250px;
+    height: 350px;
+    margin-right: 20px;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  .EnglishComic-Scroll img:hover
+  {
+    transform: scale(1.2);
+    opacity: 0.8;
+    overflow-y: hidden;
+  }
+
+
+  /*MangaDetailsPop-Up*/
+
+
+  .popup {
+    position: relative;
+    top: 100px;
+    left: 400px;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #000000;
+    z-index: 10;
+    display: none;
+    margin-right: 300px;
+    transform: translateX(50%);
+    max-width: 500px;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*Contact Page*/
+
+  #ContactForm
+  {
+    display: none;
+    text-align: center;
+    width:100%;
+    background-color: #f9f9f9;
+    font-size: x-large;
+  }
+
+  #ContactForm section
+  {
+    padding:20px;
+  }
+
+  #ContactForm h1 {
+   
+    margin-bottom: 10px;
+  }
+
+  #ContactForm label
+  {
+  
+  margin-bottom: 5px;
+  }
+
+  #ContactForm input {
+    
+    margin-bottom: 10px;
+  }
+
+  #ContactForm select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  #ContactForm button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  #ContactForm button:hover {
+    background-color: #ccc;
+  }
+
+  
+
+
+  
